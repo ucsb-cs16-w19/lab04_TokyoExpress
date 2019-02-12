@@ -5,5 +5,11 @@
 #include "utility.h"
 
 int sumOdds(int a[], int size) {
-  return -42; // STUB!  Replace with correct code.
+  // variable for adding
+  int oddsum = 0;
+  // array parser
+  for(int i = 0; i < size; i++) {
+    if(isOdd(a[i])) oddsum += a[i];
+  }
+  return oddsum;
 }

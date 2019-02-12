@@ -5,5 +5,12 @@
 #include "utility.h"
 
 int countPrimes(int a[], int size) {
-  return -42; // STUB!  Replace with correct code.
+  // variable for counting
+  int primes = 0;
+  // array parser
+  for(int i = 0; i < size; i++) {
+    if(isPrime(a[i])) primes++;
+  }
+  return primes;
 }
+
