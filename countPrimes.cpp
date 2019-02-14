@@ -5,7 +5,7 @@
 #include "utility.h"
 
 int countPrimes(int a[], int size) {
-  // Precondition: array of size 0 is inputted
+  // Precondition: array of integers greater than size 0 is inputted
   // Postcondition: number of prime numbers is outputted
  
   // variable for counting

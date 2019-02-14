@@ -5,7 +5,7 @@
 #include "utility.h"
 
 int sumOdds(int a[], int size) {
-  // Precondition: array of size 0 is inputted
+  // Precondition: array of integers greater than size 0 is inputted
   // Postcondition: sum of odd numbers is outputted
 
   // variable for adding

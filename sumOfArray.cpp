@@ -1,7 +1,7 @@
 #include "arrayFuncs.h"
 
 int sumOfArray(int a[], int size) {
-  // Precondition: array of size 0 is inputted
+  // Precondition: array of integers greater than size 0 is inputted
   // Postcondition: sum of array numbers is outputted
 
   // variable for counting
