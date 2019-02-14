@@ -4,6 +4,9 @@
 #include "utility.h"
 
 int countEvens(int a[], int size) {
+  // Precondition: array of size 0 is inputted
+  // Postcondition: number of even numbers is outputted
+ 
   // variable for counting
   int evens = 0;
   // array parser
